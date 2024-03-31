@@ -67,7 +67,10 @@ function logout() {
                     </div>
                 </div>
                 <div>
-                    <button class="text-white" @click="logout">Logout</button>
+                    <button class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-indigo-700"
+                            @click="logout">
+                        Logout
+                    </button>
                 </div>
             </div>
         </div>
